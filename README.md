@@ -24,3 +24,21 @@ fs.list('/dir', function(err, list) {
 });
 ```
 
+## Test
+
+Create `.secret.json` with credentials of your dropbox account:
+
+```json
+{
+    "key": "appkey",
+    "secret": "appsecret",
+    "token": "token"
+}
+```
+
+Then run:
+
+```
+npm install
+npm test
+```
