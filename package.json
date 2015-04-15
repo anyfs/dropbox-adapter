@@ -1,0 +1,31 @@
+{
+  "name": "anyfs-dropbox-adapter",
+  "version": "0.1.0",
+  "description": "Dropbox adapter for AnyFS",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -t 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anyfs/dropbox-adapter.git"
+  },
+  "keywords": [
+    "dropbox",
+    "anyfs",
+    "gulpplugin"
+  ],
+  "author": "Liu Dong <ddliuhb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anyfs/dropbox-adapter/issues"
+  },
+  "homepage": "https://github.com/anyfs/dropbox-adapter",
+  "devDependencies": {
+    "anyfs": "^0.1.4",
+    "mocha": "^2.2.4"
+  },
+  "dependencies": {
+    "dropbox": "^0.10.3"
+  }
+}
