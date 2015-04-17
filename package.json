@@ -1,6 +1,6 @@
 {
   "name": "anyfs-dropbox-adapter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Dropbox adapter for AnyFS",
   "main": "index.js",
   "scripts": {
