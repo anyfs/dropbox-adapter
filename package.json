@@ -4,7 +4,7 @@
   "description": "Dropbox adapter for AnyFS",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha -t 3000"
+    "test": "./node_modules/mocha/bin/mocha -t 30000"
   },
   "repository": {
     "type": "git",
