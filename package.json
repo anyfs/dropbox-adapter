@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/anyfs/dropbox-adapter",
   "devDependencies": {
-    "anyfs": "^0.1.4",
+    "anyfs": "^0.1.5",
     "mocha": "^2.2.4"
   },
   "dependencies": {

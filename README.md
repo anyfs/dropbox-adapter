@@ -2,6 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/anyfs-dropbox-adapter.svg?style=flat-square)](https://www.npmjs.com/package/anyfs-dropbox-adapter)
 [![npm](https://img.shields.io/npm/dm/anyfs-dropbox-adapter.svg?style=flat-square)](https://www.npmjs.com/package/anyfs-dropbox-adapter)
+[![Travis](https://img.shields.io/travis/anyfs/dropbox-adapter.svg?style=flat-square)](https://travis-ci.org/anyfs/dropbox-adapter)
 ![npm](https://img.shields.io/npm/l/anyfs-dropbox-adapter.svg?style=flat-square)
 
 Dropbox adapter for AnyFS

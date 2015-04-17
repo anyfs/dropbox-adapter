@@ -85,8 +85,14 @@ Adapter.prototype.mkdir = function(p, cb) {
     });
 };
 
-Adapter.prototype.features.DELETE_RECURSIVE = true;
 Adapter.prototype.delete = function(p, cb) {
+    this.dropbox.delete(p, function(err) {
+        cb(parseError(err));
+    });
+};
+
+Adapter.prototype.features.DELETE_RECURSIVE = true;
+Adapter.prototype.deleteDir = function(p, cb) {
     this.dropbox.delete(p, function(err) {
         cb(parseError(err));
     });
