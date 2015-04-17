@@ -99,7 +99,7 @@ Adapter.prototype.deleteDir = function(p, cb) {
 };
 
 Adapter.prototype.move = function(a, b, cb) {
-    self.dropbox.move(a, b, function(err) {
+    this.dropbox.move(a, b, function(err) {
         cb(parseError(err));
     });
 };
